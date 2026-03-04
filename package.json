@@ -1,0 +1,33 @@
+{
+  "name": "@raex-ui/thread-unravel",
+  "version": "0.1.0",
+  "description": "Single continuous stroke path that unravels and restitches to form each digit. Animated digit transition component for React.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist"],
+  "sideEffects": false,
+  "license": "MIT",
+  "keywords": ["react", "animation", "digit", "transition", "framer-motion", "svg", "thread"],
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "framer-motion": ">=10"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5",
+    "react": "^19",
+    "@types/react": "^19"
+  },
+  "scripts": {
+    "build": "tsup"
+  }
+}
