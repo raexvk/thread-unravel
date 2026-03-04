@@ -1,6 +1,6 @@
 {
   "name": "@raex-ui/thread-unravel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Single continuous stroke path that unravels and restitches to form each digit. Animated digit transition component for React.",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
