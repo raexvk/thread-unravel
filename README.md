@@ -1,19 +1,13 @@
-# @raex-ui/thread-unravel
+# Thread Unravel
 
-A single continuous stroke path that unravels and restitches to form each digit. Uses SVG stroke-dashoffset animation for a hand-drawn effect.
+Animated digit component using a single continuous stroke path that unravels and restitches to form each digit. SVG stroke-dashoffset creates a flowing, hand-drawn drawing effect.
 
-![thread-unravel](https://raex-ui.vercel.app/components/thread-unravel)
-
-## Install
-
-```bash
-npm install @raex-ui/thread-unravel
-```
+[Live Demo →](https://vbuilds.vercel.app/components/thread-unravel)
 
 ## Usage
 
 ```tsx
-import { ThreadUnravel } from "@raex-ui/thread-unravel";
+import { ThreadUnravel } from "./thread-unravel";
 
 function MyComponent() {
   const [digit, setDigit] = useState(0);
@@ -23,18 +17,16 @@ function MyComponent() {
 
 ## Props
 
-| Prop | Type | Description |
-|------|------|-------------|
-| `value` | `number` | Digit to display (0–9) |
-| `size` | `number` | Width in pixels. Height is automatically 1.5× width. |
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `value` | `number` | `0` | Digit to display (0–9) |
+| `size` | `number` | `64` | Width in pixels. Height is 1.5× width. |
 
-## Peer Dependencies
+## Built With
 
-- `react` >=18
-- `react-dom` >=18
-- `framer-motion` >=10
-
-No Tailwind CSS required.
+- React
+- Framer Motion
+- TypeScript
 
 ## License
 
